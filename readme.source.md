@@ -237,9 +237,9 @@
 ```aura width=860 height=260
 (function() {
   var categories = [
-    { title: 'Languages', color: '#a78bfa', items: ['C', 'C++', 'Java', 'Python', 'JavaScript', 'PHP', 'HTML/CSS'] },
-    { title: 'Frameworks', color: '#60a5fa', items: ['Flask', 'Bootstrap', 'TailwindCSS', 'DaisyUI', 'jQuery', 'Jinja'] },
-    { title: 'Tools & DB', color: '#34d399', items: ['MySQL', 'SQLite', 'Pandas', 'NumPy', 'Gunicorn', 'Render'] },
+    { title: 'Languages', color: '#a78bfa', items: ['C', 'C++', 'Java', 'Python', 'JavaScript', 'TypeScript', 'PHP', 'HTML/CSS'] },
+    { title: 'Frameworks', color: '#60a5fa', items: ['React', 'shadcn', 'Flask', 'Bootstrap', 'TailwindCSS', 'DaisyUI', 'jQuery', 'Jinja'] },
+    { title: 'Tools & DB', color: '#34d399', items: ['MySQL', 'SQLite', 'Pandas', 'NumPy', 'Gunicorn'] },
     { title: 'Design/Misc', color: '#fb923c', items: ['Figma', 'Canva', 'GitHub Actions', 'Postman', 'Notion', 'Cisco'] },
   ];
 
