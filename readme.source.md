@@ -112,7 +112,7 @@
      {(github && github.user && github.user.bio) || 'Full-Stack Engineer · Competitive Programmer · Open Source'}
    </div>
    <div style={{ display:'flex', gap:8, marginTop:6 }}>
-     {['React', 'TypeScript', 'Next.js', 'C++'].map(function(tag) {
+     {['Python', 'JavaScript', 'Java', 'C++'].map(function(tag) {
        return (
          <div key={tag} style={{
            display:'flex', padding:'4px 12px', borderRadius:20,
@@ -234,13 +234,14 @@
 })()
 ```
 
-```aura width=860 height=168
+```aura width=860 height=260
 (function() {
- var topLangs = (github && github.languages && github.languages.length > 0 ? github.languages.slice(0, 6).map(function(l) { return l.name; }) : ['TypeScript', 'React', 'Next.js', 'C++', 'Go', 'Rust']);
- var categories = [
-   { title: 'Languages', color: '#a78bfa', items: topLangs },
-   { title: 'Frameworks', color: '#60a5fa', items: ['React Native', 'React', 'Next.js'] },
- ];
+  var categories = [
+    { title: 'Languages', color: '#a78bfa', items: ['C', 'C++', 'Java', 'Python', 'JavaScript', 'PHP', 'HTML/CSS'] },
+    { title: 'Frameworks', color: '#60a5fa', items: ['Flask', 'Bootstrap', 'TailwindCSS', 'DaisyUI', 'jQuery', 'Jinja'] },
+    { title: 'Tools & DB', color: '#34d399', items: ['MySQL', 'SQLite', 'Pandas', 'NumPy', 'Gunicorn', 'Render'] },
+    { title: 'Design/Misc', color: '#fb923c', items: ['Figma', 'Canva', 'GitHub Actions', 'Postman', 'Notion', 'Cisco'] },
+  ];
 
  return (
    <div style={{
@@ -288,7 +289,7 @@
        `}
      </style>
 
-     <svg width="860" height="168" style={{ position: 'absolute', top: 0, left: 0 }}>
+     <svg width="860" height="260" style={{ position: 'absolute', top: 0, left: 0 }}>
        <defs>
          <radialGradient id="g1" cx="50%" cy="50%" r="50%">
            <stop offset="0%" stopColor="rgba(115,20,215,0.68)" />
